@@ -5,43 +5,42 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>App Landing Hero</title>
 
-  
   <script src="https://cdn.tailwindcss.com"></script>
 </head>
 
 <body class="bg-[#f5f5f5] font-sans">
 
-
   <section class="min-h-screen flex items-center">
 
     <div class="max-w-7xl mx-auto px-6 lg:px-16 w-full">
 
-
       <div class="grid grid-cols-1 lg:grid-cols-2 items-center gap-16">
 
-        
+        <!-- LEFT CONTENT -->
         <div class="text-center lg:text-left">
 
-          
           <p class="text-[#1f2340] text-lg font-medium mb-6">
             Ready to Use Tailwind CSS Web Template.
           </p>
 
-        
-          <h1 class="text-5xl font-bold mb-10">Tailwind Template for
-             <span class="text-indigo-300/70"> <br>
-              App & Software</span> site.</h1>
+          <h1 class="text-4xl sm:text-5xl md:text-6xl font-bold mb-10 leading-tight">
+            Tailwind Template for
+            <span class="text-indigo-300/70 block">
+              App & Software
+            </span>
+            site.
+          </h1>
 
-        
-          <p class="mt-8 text-gray-500 text-lg leading-8 max-w-xl mx-auto lg:mx-0">
-            All in one Tailwind CSS site template for - App and Software
+          <p class="mt-8 text-gray-500 text-lg leading-8 max-w-2xl mx-auto lg:mx-0">
+            All in one Tailwind CSS site template for - App and Software and other
+            <br>
             sites Comes with all essential components.
           </p>
 
-        
+          <!-- BUTTONS -->
           <div class="mt-10 flex flex-col sm:flex-row items-center gap-6">
 
-          
+            <!-- DOWNLOAD BUTTON -->
             <button class="bg-[#171c3a] hover:bg-[#0f1330] transition text-white px-8 py-4 rounded-xl flex items-center gap-5 shadow-lg">
 
               <span class="text-lg">Download Now</span>
@@ -57,10 +56,9 @@
               </svg>
             </button>
 
-      
+            <!-- WATCH DEMO -->
             <div class="flex items-center gap-4 cursor-pointer">
 
-              
               <div class="w-16 h-16 border-2 border-[#171c3a] rounded-full flex items-center justify-center hover:bg-[#171c3a] hover:text-white transition">
 
                 <svg xmlns="http://www.w3.org/2000/svg"
@@ -69,12 +67,12 @@
                   viewBox="0 0 24 24">
                   <path d="M8 5v14l11-7z"/>
                 </svg>
+
               </div>
 
-        
               <div>
                 <p class="text-[#171c3a]">Watch Demo</p>
-                <p class=" text-[#171c3a] text-lg">
+                <p class="text-[#171c3a] text-lg">
                   See how it works
                 </p>
               </div>
@@ -85,38 +83,53 @@
 
         </div>
 
-      
-<div class="relative flex justify-center items-center h-[650px]">
+        <!-- RIGHT IMAGE SECTION -->
+        <div class="relative flex justify-center items-center h-[500px] sm:h-[600px] lg:h-[650px]">
 
+          <!-- RESPONSIVE CIRCLE -->
+          <div class="absolute
+                      w-[260px] h-[260px]
+                      sm:w-[380px] sm:h-[380px]
+                      md:w-[450px] md:h-[450px]
+                      lg:w-[500px] lg:h-[500px]
+                      rounded-full
+                      bg-gradient-to-br
+                      from-[#a8a6ff]
+                      to-[#8cb7ff]">
+          </div>
 
-  <div class="absolute w-[500px] h-[500px] rounded-full bg-gradient-to-br from-[#a8a6ff] to-[#8cb7ff]">
-  </div>
+          <!-- PHONE IMAGE -->
+          <img
+            src="hero-light.png"
+            alt="Phone Mockup"
+            class="relative z-10
+                   w-[180px]
+                   sm:w-[240px]
+                   md:w-[300px]
+                   lg:w-[340px]
+                   mt-10 sm:mt-14 lg:mt-16"
+          />
 
- 
-<img
-  src="hero-light.png"
-  alt="Phone Mockup"
-  class="relative z-10 w-[280px] md:w-[340px] mt-16"
-/>
-  
-  <div class="absolute top-24 right-16 text-[#6c7cff] text-5xl">
-    ✦
-  </div>
+          <!-- DECORATION STARS -->
+          <div class="absolute top-16 right-8 sm:top-24 sm:right-16 text-[#6c7cff] text-3xl sm:text-5xl">
+            ✦
+          </div>
 
-  <div class="absolute top-28 right-8 text-[#35d6c1] text-4xl">
-    ✦
-  </div>
+          <div class="absolute top-20 right-2 sm:top-28 sm:right-8 text-[#35d6c1] text-2xl sm:text-4xl">
+            ✦
+          </div>
 
-  
-  <div class="absolute bottom-24 left-10">
-    <div class="text-pink-400 text-6xl tracking-[-8px] leading-3">
-      ≋
-    </div>
+          <!-- BOTTOM SHAPE -->
+          <div class="absolute bottom-16 left-2 sm:bottom-24 sm:left-10">
+            <div class="text-pink-400 text-4xl sm:text-6xl tracking-[-8px] leading-3">
+              ≋
+            </div>
+          </div>
 
-   
-  </div>
+        </div>
 
-</div>
+      </div>
+
     </div>
 
   </section>
